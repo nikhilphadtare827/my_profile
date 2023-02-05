@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+    <h2>Student Registration Form</h2>
+    <form>
+        <!-- <label> First Name</label>
+            <input type="text"> <br><br>
+        </tr>
+             <label> Last Name </label>
+            <input type="text"> <br><br>
+
+            <label> Age </label>
+            <input type="number"> -->
+
+        <table>
+            <tbody>
+                <tr>
+                    <td><label> First Name</label></td>
+                    <td>
+                        <input type="text" maxlength="6"  required autofocus placeholder="First name only 6 chars" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label> Last Name </label></td>
+                    <td>
+                        <input type="text" maxlength="8" placeholder="Last Name Only" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label> Age </label></td>
+                    <td><input type="number" max="98" placeholder="Age only" /></td>
+                </tr>
+                <tr>
+                    <td> <label> Email Address</label></td>
+                    <td>
+                        <input type="text" placeholder="Email Address"
+                    </td>
+                   
+                </tr>
+                <tr>
+                    <td>  <label> Password</label> </td>
+                    <td>
+                        <input type="text" placeholder="Password"
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label> Contact Number</label> </td>
+                    <td>
+                        <input type="text" maxlength="10" placeholder="Contact Number"
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label> Date of Birth</label></td>
+                    <td><input type="date" /></td>
+                </tr>
+
+                <tr>
+                    <td><label> Select Degree </label></td>
+                    <td>
+                        <select>
+                            <option>MCA</option>
+                            <option>BE</option>
+                            <option>BCA</option>
+                            <option>BBA</option>
+                            <option>BSc</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label> Select Gender </label></td>
+                        <input type="radio" name="gender" /> <label> Male</label>
+                        <input type="radio" name="gender" /> <label> Fmale</label>
+                        <input type="radio" name="gender" /> <label> Others</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label> Select you Hobby</label></td>
+                    <td>
+                        <input type="checkbox" /> <label> Reading</label>
+                        <input type="checkbox" /> <label> Waching</label>
+                        <input type="checkbox" /> <label> Dancing</label>
+                    </td>
+                </tr>
+                <tr>
+                 <tr>
+                    <td> <label> Known Tools & Technology </label> </td>
+                    <td>
+                     <input type="radio" name="Angular"> <label> Angular </label>
+                     <input type="radio" name="React">   <label> React</label>
+                     <input type="radio" name="Python">  <label> Python</label>  
+                     <input type="radio" name="Java">    <label> Java</label>
+                     <input type="radio" name="GIt">     <label> GIT</label>
+                     <input type="radio" name="Database"> <label> Database</label>
+
+
+
+                    </td>
+                 </tr>
+
+
+                    <td><label> Upload Profile photo</label></td>
+                    <td><input type="file" /></td>
+                </tr>
+                <tr>
+                    <td>Upload Graduation mark sheets</td>
+                    <td><input type="file" multiple /></td>
+                </tr>
+
+                <tr>
+                    <td><label> Present Address</label></td>
+                    <td><textarea rows="8" cols="50"></textarea></td>
+                </tr>
+                <tr>
+                    <td><button type="Submit">Submit</button></td>
+                    <td><button type="Reset">Reset</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>
